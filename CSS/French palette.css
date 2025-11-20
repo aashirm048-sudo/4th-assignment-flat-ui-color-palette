@@ -1,0 +1,55 @@
+body {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common box style */
+.container div {
+  width: 290px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.box1 { background: purple; }
+.box2 { background: gold; }
+.box3 { background: darkblue; }
+.box4 { background: blue; }
+.box5 { background: black; }
+
+.box6 { background: blue; }
+.box7 { background: brown; }
+.box8 { background: brown; }
+.box9 { background: blue; }
+.box10 { background: cadetblue; }
+
+.box11 { background: chartreuse; }
+.box12 { background: chocolate; }
+.box13 { background: darkcyan; }
+.box14 { background: crimson; }
+.box15 { background: burlywood; }
+
+.box16 { background: darkred; }
+.box17 { background: darkgoldenrod; }
+.box18 { background: blueviolet; }
+.box19 { background: deeppink; }
+.box20 { background: aquamarine; }
+
+.container div p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: end;
+}
